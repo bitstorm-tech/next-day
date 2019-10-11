@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+
+class PlanningItem(models.Model):
+    name = models.TextField()
+    description = models.TextField()
